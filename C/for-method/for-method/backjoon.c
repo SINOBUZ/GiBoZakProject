@@ -1,7 +1,12 @@
 #include <stdio.h>
+#include <time.h>
 
 int main(void)
 {
+	clock_t start, end;
+	double result;
+	start = clock(); // 수행 시간 측정 시작
+
 	for (int a = 1; a <= 100; a++)
 	{
 		// 여기부터 첫줄
@@ -40,4 +45,9 @@ int main(void)
 		}
 		printf("a = %d\n\n", a);
 	}
+
+	end = clock(); //시간 측정 끝 
+	result = (double)(end - start); // 결과 출력
+	printf("실행 시간 : %.00fms", result);
+	return 0;
 }

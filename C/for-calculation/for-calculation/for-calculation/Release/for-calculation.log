@@ -1,0 +1,6 @@
+﻿  main.c
+d:\github\gibozakproject\c\for-calculation\for-calculation\for-calculation\main.c(52): warning C4013: 'system'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+  코드를 생성하고 있습니다.
+  All 4 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  코드를 생성했습니다.
+  for-calculation.vcxproj -> D:\GitHub\GiBoZakProject\C\for-calculation\for-calculation\Release\for-calculation.exe

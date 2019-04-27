@@ -48,6 +48,6 @@ int main(void)
 
 	end = clock(); //시간 측정 끝 
 	result = (double)(end - start); // 결과 출력
-	printf("실행 시간 : %.00fms", result);
-	return 0;
+	printf("실행 시간 : %.00fms\n", result);
+	system("pause");
 }

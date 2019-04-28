@@ -4,6 +4,8 @@
 int main(void)
 {
 	int n = 1;
+	int count = 0;
+
 	clock_t start, end;
 	double result;
 	start = clock(); // 수행 시간 측정 시작
@@ -26,6 +28,7 @@ int main(void)
 				n = n + k;
 			}
 			n = n + i;
+			count = count + 1;
 
 			for (int k = 0; k < 2 * i + 1; k++)
 			{
@@ -45,9 +48,10 @@ int main(void)
 			n = n + a;
 		}
 	}
+
 	end = clock(); //시간 측정 끝 
 	printf("a = %d\n\n", n);
 	result = (double)(end - start); // 결과 출력
-	printf("실행 시간 : %.00fms", result);
+	printf("실행 시간 : %.00fms\n", result);
 	system("pause");
 }

@@ -3,7 +3,7 @@ import os
 
 start_time = time.time()
 n=1
-for a in range(1, 101):
+for a in range(1, 2001):
     for i in range (0, a - 1):
         n = n + i
     ...

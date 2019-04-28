@@ -1,5 +1,5 @@
 ﻿  main.c
-d:\github\gibozakproject\c\for-calculation\for-calculation\for-calculation\main.c(56): warning C4013: 'system'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+d:\github\gibozakproject\c\for-calculation\for-calculation\for-calculation\main.c(53): warning C4013: 'system'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
   코드를 생성하고 있습니다.
   1 of 4 functions (25.0%) were compiled, the rest were copied from previous compilation.
     0 functions were new in current compilation

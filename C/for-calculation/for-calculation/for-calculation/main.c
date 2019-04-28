@@ -4,8 +4,6 @@
 int main(void)
 {
 	int n = 1;
-	int count = 0;
-
 	clock_t start, end;
 	double result;
 	start = clock(); // 수행 시간 측정 시작
@@ -28,7 +26,6 @@ int main(void)
 				n = n + k;
 			}
 			n = n + i;
-			count = count + 1;
 
 			for (int k = 0; k < 2 * i + 1; k++)
 			{
